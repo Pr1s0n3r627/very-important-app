@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
 }
 
 Future<void> playAudio() async {
-  final player = AudioPlayer();
-  String localFile = 'assets/audio/vine_boom.wav';
-  await player.play(AssetSource(localFile));
+  final player = AudioCache();
+  String localFile = 'assets/audio/vine_boom.mp3';
+  player.play(localFile);
   // will immediately start playing
 }
