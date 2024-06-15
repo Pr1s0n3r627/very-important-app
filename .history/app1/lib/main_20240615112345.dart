@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             onTap: () {
               playAudio();
             },
-            child: Image.asset('assets/images/iconic.png'),
+            child: Image.asset('images/iconic.png'),
           ),
         ),
       ),
